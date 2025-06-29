@@ -1,4 +1,4 @@
-const socket = io("https://chat-backend-0z7h.onrender.com/");
+const socket = io("https://chat-backend-0z7h.onrender.com");
 
 
 const form = document.getElementById('chat-form');
