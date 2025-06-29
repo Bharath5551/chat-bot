@@ -11,10 +11,14 @@
     <div id="messages"></div>
     <form id="chat-form">
       <input id="message-input" autocomplete="off" placeholder="Type a message..." />
-      <button>Send</button>
+      <button type="submit">Send</button>
     </form>
   </div>
-  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- ✅ Load Socket.IO from your Render backend -->
+  <script src="https://chat-backend-0z7h.onrender.com/socket.io/socket.io.js"></script>
+  
+  <!-- ✅ Your frontend script -->
   <script src="script.js"></script>
 </body>
 </html>
